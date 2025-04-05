@@ -91,15 +91,8 @@ void loop() {
     // Calibrate Touchscreen points with map function to the correct width and height
     x = map(p.x, 0, 320, 1, SCREEN_WIDTH);
     y = map(p.y, 0, 240, 1, SCREEN_HEIGHT);
-    //x = map(touchX, 0, 320, 1, SCREEN_WIDTH);
-    //y = map(touchY, 0, 240, 1, SCREEN_HEIGHT);
-    //x = touchX;
-    //y = touchY;
-    //a = SCREEN_HEIGHT - touchX; //touchX átalakítva
-    //z = p.z;
+    
     Serial.println((String) "Touch Data x: " + touchX + (String) ", y: " + touchY + (String) ", gesture: " + gesture);
-
-    //tft.fillCircle(x, y, 3, TFT_BLACK);
 
     printTouchToSerial(x, y, z);
     printTouchToDisplay(x, y, z);
