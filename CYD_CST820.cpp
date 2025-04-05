@@ -65,20 +65,6 @@ bool CYD_CST820::getTouch(uint16_t *x, uint16_t *y, uint8_t *gesture)
 
   return FingerIndex;
 }
-/*void CYD_CST820::setRotation( uint8_t rotation){
-  switch (rotation) {
-      case 0:
-      touchX = *x;
-      touchY = *y;
-      break;
-      case 1:
-      touchX = 240-*x;
-      touchY = *y;
-      break;
-      default:
-      touchX = *x;
-      touchY = *y;
-  }*/
 
 void CYD_CST820::setRotation(uint8_t n) {
   rotation = n % 4;
