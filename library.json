@@ -1,0 +1,13 @@
+{
+  "name": "CYD_CST820",
+  "keywords": "display, tft, lcd, graphics, spi, touchscreen, CST820",
+  "description": "Touchscreens using the XPT2046 controller chip with CST820 driver. Many very low cost color TFT displays with touch screens have this chip.",
+  "exclude": "doc",
+  "repository":
+  {
+    "type": "git",
+    "url": "https://github.com/znyisztor77/CYD_CST820.git"
+  },
+  "frameworks": "arduino",
+  "platforms": "*"
+}
