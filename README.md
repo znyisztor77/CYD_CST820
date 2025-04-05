@@ -1,1 +1,1 @@
-#ESP32 2.4inch Cheap Yellow Display CST820 touch display driver
+# ESP32 2.4inch Cheap Yellow Display Board CST820 capacitive touchscreen driver
