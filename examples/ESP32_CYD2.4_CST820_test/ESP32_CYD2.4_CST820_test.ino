@@ -10,7 +10,6 @@ TFT_eSPI tft = TFT_eSPI();
 #define I2C_SCL 32
 #define TP_RST 25
 #define TP_INT 21
-CYD_CST820 ctp = CYD_CST820();
 
 CYD_CST820 touchscreen(I2C_SDA, I2C_SCL, TP_RST, TP_INT);
 
